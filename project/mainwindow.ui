@@ -11,16 +11,10 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Программа</string>
+   <string>Проект</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <property name="minimumSize">
-    <size>
-     <width>800</width>
-     <height>547</height>
-    </size>
-   </property>
-   <layout class="QGridLayout" name="gridLayout_2">
+   <layout class="QGridLayout" name="gridLayout">
     <item row="0" column="0">
      <widget class="QSplitter" name="splitter">
       <property name="orientation">
@@ -41,10 +35,10 @@
        <property name="orientation">
         <enum>Qt::Vertical</enum>
        </property>
-       <widget class="QWidget" name="verticalLayoutWidget_5">
+       <widget class="QWidget" name="verticalLayoutWidget_3">
         <layout class="QVBoxLayout" name="right_up"/>
        </widget>
-       <widget class="QWidget" name="verticalLayoutWidget_6">
+       <widget class="QWidget" name="verticalLayoutWidget_4">
         <layout class="QVBoxLayout" name="right_down"/>
        </widget>
       </widget>
